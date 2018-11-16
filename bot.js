@@ -1,10 +1,13 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const client2 = new Discord.Client();
+const client3 = new Discord.Client();
+const client4 = new Discord.Client();
+const client5 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`Credit Farm - Script By : MeSho `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -86,3 +89,6 @@ if (message.content === '!spam') {
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
 client2.login(process.env.TOKEN2);// لا تغير فيها شيء
+client3.login(process.env.TOKEN3);// لا تغير فيها شيء
+client4.login(process.env.TOKEN4);// لا تغير فيها شيء
+client5.login(process.env.TOKEN5);// لا تغير فيها شيء
