@@ -4,7 +4,7 @@ const client2 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`Credit Farmm - Script By : AVIRA `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -58,7 +58,7 @@ if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Credit Spam , Fram Credit By AVIRA , Farm Credit By AVIRA, Ez Farm - واحد اثنين ثلاثه اربعه أحسن ثنين ثلاثه اربعه اخر مره جماعه قف **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -67,12 +67,12 @@ if (message.content === '!spam') {
       }
 });
 
-client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
+client2.on('message', message => { //
 if (message.content === '!spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By AVIRA , Farm Credit By AVIRA, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**Credit Spam , Fram Credit By AVIRA , Farm Credit By AVIRA, Ez Farm - اخر مره جماعه قف **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -84,5 +84,5 @@ if (message.content === '!spam') {
 
 
 
-client.login(process.env.TOKEN);// لا تغير فيها شيء
-client2.login(process.env.TOKEN2);// لا تغير فيها شيء
+client.login(process.env.TOKEN);// 
+client2.login(process.env.TOKEN2);//
